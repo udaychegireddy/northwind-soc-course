@@ -2,8 +2,8 @@
 
 Files for the four practical activities of the SOC Analyst course. Everything here is **training data about a fictional company, Northwind Logistics**. All IP addresses and domains are reserved for documentation and lead nowhere.
 
-> Repository link: **https://github.com/YOUR-ACCOUNT/northwind-soc-course**
-> Log Explorer (online): **https://YOUR-ACCOUNT.github.io/northwind-soc-course/log-explorer/**
+> Repository link: **https://github.com/udaychegireddy/northwind-soc-course**
+> Log Explorer (online): **https://udaychegireddy.github.io/northwind-soc-course/log-explorer/**
 
 ## Get the files
 
@@ -14,7 +14,7 @@ Files for the four practical activities of the SOC Analyst course. Everything he
 
 **Option 2 — Git**
 ```
-git clone https://github.com/YOUR-ACCOUNT/northwind-soc-course.git
+git clone https://github.com/udaychegireddy/northwind-soc-course.git
 ```
 
 ## What is in this repository
