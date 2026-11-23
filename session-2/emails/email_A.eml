@@ -1,0 +1,24 @@
+Received: from mx.northwind.example.org (10.0.1.25) by mail.northwind.example.org
+ (10.0.1.20) with Microsoft SMTP Server; Thu, 12 Nov 2026 07:58:14 +0000
+Received: from mail.paybridge.example.org (192.0.2.25) by mx.northwind.example.org
+ (10.0.1.25) with ESMTPS id 4F2A91C3; Thu, 12 Nov 2026 07:58:12 +0000
+Authentication-Results: mx.northwind.example.org;
+ spf=pass (sender IP is 192.0.2.25) smtp.mailfrom=paybridge.example.org;
+ dkim=pass (signature was verified) header.d=paybridge.example.org;
+ dmarc=pass action=none header.from=paybridge.example.org
+Return-Path: <billing@paybridge.example.org>
+From: PayBridge Billing <billing@paybridge.example.org>
+To: accounts@northwind.example.org
+Subject: Your November statement is ready
+Date: Thu, 12 Nov 2026 07:58:09 +0000
+Message-ID: <20261112075809.3381@paybridge.example.org>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Hello,
+
+Your November statement for account NW-2207 is now available in the PayBridge
+customer portal. No action is needed if you pay by direct debit.
+
+PayBridge Billing team
+(TRAINING EXAMPLE - fictional company and domains)

@@ -1,0 +1,35 @@
+Received: from mail.northwind.example.org (10.0.1.20) by mail.northwind.example.org
+ (10.0.1.20) with Microsoft SMTP Server; Mon, 16 Nov 2026 08:47:11 +0000
+Received: from [198.51.100.23] by mail.northwind.example.org (10.0.1.20)
+ with HTTPS (Outlook Web App); Mon, 16 Nov 2026 08:47:09 +0000
+Authentication-Results: mx.northwind.example.org;
+ spf=pass (sender is an internal mail server) smtp.mailfrom=northwind.example.org;
+ dkim=pass (signature was verified) header.d=northwind.example.org;
+ dmarc=pass action=none header.from=northwind.example.org
+X-Originating-IP: [198.51.100.23]
+Return-Path: <j.martin@northwind.example.org>
+From: Julien Martin <j.martin@northwind.example.org>
+To: Alex Lee <a.lee@northwind.example.org>
+Subject: Invoice 44817 overdue - action needed
+Date: Mon, 16 Nov 2026 08:47:08 +0000
+Message-ID: <DB7PR01MB4471.nw@northwind.example.org>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="nw-boundary-44817"
+
+--nw-boundary-44817
+Content-Type: text/plain; charset="utf-8"
+
+Hi Alex,
+
+The supplier says invoice 44817 is overdue. Can you open the attached file,
+enable editing so the figures load, and confirm the amount before 10:00?
+
+Thanks,
+Julien
+
+--nw-boundary-44817
+Content-Type: application/vnd.ms-word.document.macroEnabled.12; name="Invoice_44817.docm"
+Content-Disposition: attachment; filename="Invoice_44817.docm"
+
+[Attachment removed - TRAINING EXAMPLE. No file content is included.]
+--nw-boundary-44817--

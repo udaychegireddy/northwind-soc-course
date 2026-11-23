@@ -1,0 +1,25 @@
+Received: from mx.northwind.example.org (10.0.1.25) by mail.northwind.example.org
+ (10.0.1.20) with Microsoft SMTP Server; Fri, 13 Nov 2026 16:21:40 +0000
+Received: from mail.paybr1dge.example.net (198.51.100.77) by mx.northwind.example.org
+ (10.0.1.25) with ESMTP id 77B0E2AA; Fri, 13 Nov 2026 16:21:38 +0000
+Authentication-Results: mx.northwind.example.org;
+ spf=fail (sender IP is 198.51.100.77) smtp.mailfrom=paybridge.example.org;
+ dkim=none (message not signed) header.d=none;
+ dmarc=fail action=quarantine header.from=paybridge.example.org
+Return-Path: <bounce@paybr1dge.example.net>
+From: PayBridge Billing <billing@paybridge.example.org>
+Reply-To: billing-team@paybr1dge.example.net
+To: accounts@northwind.example.org
+Subject: URGENT: invoice overdue - confirm payment details today
+Date: Fri, 13 Nov 2026 16:21:31 +0000
+Message-ID: <a81f0c2e-77b0@paybr1dge.example.net>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Dear customer,
+
+Your invoice is 14 days overdue. To avoid suspension of service, reply today
+with your updated bank details so we can confirm payment.
+
+Billing department
+(TRAINING EXAMPLE - fictional company and domains)
